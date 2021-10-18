@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.hero-img{
+    position: absolute;
+    opacity: 0.32;
+}
+
+
+#home {
+    background-color: #63A6CC;
+    height: 680px;
+}
+
+a{
+    color: #fff;
+    font-size: 17px;
+}
+
+hr{
+    border-color: #fff;
+}
+
+header{
+    position: relative;
+    padding: 3% 5%;
+} 
+
+.heading{
+    color: #fff;
+    padding-left: 25%;
+}
+
+.heading h1{
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+
+.heading p{
+    padding-bottom: 30px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.heading .home-btn{
+    margin-right: 10%;
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.heading .hire-btn{
+    outline-color: #fff;
+}
+
+.img-container{
+    position: relative;
+}
+
+.home-img{
+    width: 700px;
+    position: absolute;
+    right: 40px;
+    padding-top: 80px;
+}
+
+/* SKILLS */
+
+#skills{
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 50px;
+}
+
+#skills h2, #skills h3, #contact h2, #about-me h1{
+    text-align: center;
+    padding: 40px 0;
+}
+
+#skills p{
+    font-size: 18px;
+}
+
+.skill-description{
+    text-align: center;
+    padding: 15% 10%;
+}
+
+.progress{
+    width: 70%;
+    height: 25px;
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+
+#skills span{
+    font-size: 16px;
+}
+
+/* CONTACT */
+
+#contact{
+    background-color: #63A6CC;
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#contact h2{
+    color: #fff;
+}
+
+.form-control{
+    width: 40%;
+    margin: auto;
+}
+
+#contact .btn{
+    width: 170px;
+}
+
+.contact-img{
+    position: absolute;
+    left: 20px;
+    opacity: 0.32;
+    z-index: -1;
+}
+
+/* About Me */
+
+#about-me {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+}
+
+#about-me img{
+    width: 200px;
+    /* float: left;
+    padding-right: 5%; */
+}
+
+.code{
+    float: left;
+    padding-right: 5%;   
+}
+
+.coding-monitor{
+    float: right;
+}
+
+#about-me p{
+    font-size: 19px;
+    padding: 25px 50px;
+}
+
+.left-about-me-content{
+    padding: 7% 20%;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: #63A6CC;
+    color: #fff;
+}
+
+.footer-about, .links{
+    padding: 7% 15%;
+}
+
+#footer a{
+    font-size: 18px;
+}
+
+#footer img{
+    width: 200px;
+}
+
+.about-img{
+    width: 120px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+
+.img-1{
+    background: url('../images/img_1.jpg') center center;
+    background-size: cover;
+}
+
+.img-2{
+    background: url('../images/img_2.jpg') center center;
+    background-size: cover;
+}
+
+.img-3{
+    background: url('../images/img_3.jpg') center center;
+    background-size: cover;
+}
+
+.img-4{
+    background: url('../images/img_3.jpg') center center;
+    background-size: cover;
+}
+
+.img-5{
+    background: url('../images/img_1.jpg') center center;
+    background-size: cover;
+}
+
+.img-6{
+    background: url('../images/img_2.jpg') center center;
+    background-size: cover;
+}
+
+.copy-right {
+    padding: 15px;
+    text-align: center;
+}
+
+/* FOR TABLE  */
+
+@media only screen and (max-width: 992px){
+    #home {
+        height: 920px;
+    }
+    .home-img{
+        width:  700px;
+        display: inline-block;
+        padding-right: 20%;
+        padding-top: 115px;
+    }
+
+    .heading .home-btn{
+       margin-bottom: 30px;
+    }
+    .heading{
+        text-align: center;
+        padding: 0;
+    }
+    #home p{
+        padding: 0 10%;
+    }
+    #about-me{
+        text-align: center;
+    }
+    .code, .coding-monitor{
+        float: none;
+        padding-bottom: 30px;
+    }
+    #about-me p{
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .img-container{
+        text-align: center;
+        padding-left: 700px;
+    }
+    .footer-about, .links, .photo{
+        text-align: center;
+    }
+    .about-img{
+        display: inline-block;
+        width: 400px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .photo h3, .links{
+        margin-bottom: 50px;
+    }
+    .form-control{
+        width: 300px;
+    }
+    
+}
